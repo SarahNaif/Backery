@@ -1,0 +1,55 @@
+html {
+    scroll-behavior: smooth;
+    -webkit-transition: all 2s;
+    transition: all 2s;
+}
+body{
+    -webkit-text-size-adjust: none;
+    /* -webkit-font-smoothing: subpixel-antialiased; */
+    font-size: 21px;
+    font-weight: 400;
+    font-family: "Garamond", serif;
+    font-style: normal;
+    line-height: 1.61538;
+    color: #888;
+}
+/* -------------------NavBar------------------- */
+.navbar{
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px; /* height*/
+}
+.nav-item{
+    margin: 0 15px;
+}
+.nav-link{
+    color:#111111a1;
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;    
+}
+
+/* -------------HERO----------------- */
+
+.hero{
+    background: url("../images/hero.jpg");
+    background-size: cover;
+    position: relative;
+    padding: 260px 0;
+}
+.hero.container {
+    z-index: 1;
+    position: relative;
+}
+.has-overlay:after{
+   display: block;
+   position: absolute;
+   background-image:linear-gradient(to bottom ,rgba(0, 0, 0, 0.55) 0, #00000008 100%);
+   height: 100%;
+   width: 100%;
+   top:0;
+   left:0;
+   content:'';
+
+}
