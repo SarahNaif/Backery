@@ -1,3 +1,7 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 html {
     scroll-behavior: smooth;
     -webkit-transition: all 2s;
@@ -13,6 +17,24 @@ body{
     line-height: 1.61538;
     color: #888;
 }
+a {
+    color: #111111;
+}
+a:hover {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    color: #000;
+    font-family: 'EB Garamond', serif;
+}
+
 /* -------------------NavBar------------------- */
 .navbar{
     background-color: #ffffff;
@@ -33,12 +55,12 @@ body{
 /* -------------HERO----------------- */
 
 .hero{
-    background: url("../images/hero.jpg");
+    background: url("../images/hero.jpg") no-repeat center center;
     background-size: cover;
     position: relative;
     padding: 260px 0;
 }
-.hero.container {
+.hero .container {
     z-index: 1;
     position: relative;
 }
@@ -51,5 +73,14 @@ body{
    top:0;
    left:0;
    content:'';
-
 }
+.primary-btn {
+    background-color: #9c856e;
+    color: #ffffff;
+}
+.primary-btn:hover {
+    color: #ffffff;
+    background-color:  #FF3E2F;
+    border: 1px solid  #FF3E2F;
+}
+
