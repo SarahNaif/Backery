@@ -10,7 +10,6 @@ html {
 }
 body{
     -webkit-text-size-adjust: none;
-    /* -webkit-font-smoothing: subpixel-antialiased; */
     font-size: 21px;
     font-weight: 400;
     font-family: "Garamond", serif;
