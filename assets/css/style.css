@@ -326,3 +326,25 @@ color: black;
     top:80px;
     transition:all 500ms ease-in-out;
   }
+
+  /* footer */
+
+  .footer{
+      background:#272727 ;
+      font-family: open sans,sans-serif;
+      font-size: 14px;
+      
+  }
+  .col-one{
+    margin: 4px;
+    color: #ccc;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 300;
+  }
+.footer-heading{
+    color: white;
+}
+
+
+
